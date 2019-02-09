@@ -31,6 +31,8 @@ If you don't want to fork, clone this repo to your local directory, then create 
     
     git push -u origin master
 
+Edit *requirements.txt* file to include any Python software you need installed, and eventually edit *init-dev-environment.sh* script to add Linux packages you may want.
+
 Now you can start a terminal window and invoke a Docker container with Python:
 
 `docker run --rm -it --name python-dev -v "$(pwd)":/app -p 8001:8000 python:3 /bin/bash`
