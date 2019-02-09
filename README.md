@@ -11,6 +11,26 @@ Go to the new directory:
 
 `cd <your-fork-name>`
 
+If you don't want to fork, create a new repo in GitHub named *my-python-project*, clone this repo to your local directory:
+
+    `git clone https://github.com/python-in-containers/dev-container>`
+
+    Change directory name to *<my-python-project>*
+
+    `mv dev-container <my-python-project>
+
+    Go to the new directory:
+
+    `cd <my-python-project>`
+
+    Change remote origin url:
+    
+    `git remote set-url origin https://github.com/<your-username>/<my-python-project>`
+    
+    Now push to your new repo:
+    
+    `git push -u origin master`
+
 Now you can start a terminal window and invoke a Docker container with Python:
 
 `docker run --rm -it --name python-dev -v "$(pwd)":/app -p 8001:8000 python:3 /bin/bash`
