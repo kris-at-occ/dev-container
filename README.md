@@ -48,5 +48,9 @@ Options explained:
 * python:3 : this is the name of image used to create the container
 * /bin/bash : run this command (shell) once the container is created
 
+At the Linux prompt execute the init script:
+
+`... # . init-dev-environment.sh`
+
 Open your favorite Pyhton IDE (or text editor), create some code and run it in the Docker terminal window :)
 
