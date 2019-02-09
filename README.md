@@ -11,11 +11,11 @@ Go to the new directory:
 
 `cd <your-fork-name>`
 
-If you don't want to fork, create a new repo in GitHub named *my-python-project*, clone this repo to your local directory:
+If you don't want to fork, clone this repo to your local directory, then create a new repo in GitHub named *my-python-project* :
 
     git clone https://github.com/python-in-containers/dev-container>
 
-    Change directory name to *<my-python-project>*
+    Change directory name to <my-python-project>
 
     mv dev-container <my-python-project>
 
